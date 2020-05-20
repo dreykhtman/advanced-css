@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass-nat": "node-sass -wr Natours/starter/sass/main.scss Natours/starter/css/style.css"
+    "compile": "node-sass -wr Natours/starter/sass/main.scss Natours/starter/css/style.css"
   },
   "repository": {
     "type": "git",
