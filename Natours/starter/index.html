@@ -331,10 +331,17 @@
           <div class="story">
             <figure class="story__shape">
               <img
+                srcset="img/nat-8-sm.jpg 400w, img/nat-8.jpg 2000w"
+                sizes="(max-width: 900px) 28vw, (max-width: 600px) 28vw"
+                alt="Tour photo"
+                class="story__img"
+                src="img/nat-8.jpg"
+              />
+              <!-- <img
                 src="img/nat-8.jpg"
                 alt="Person on a tour"
                 class="story__img"
-              />
+              /> -->
               <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
@@ -357,10 +364,17 @@
           <div class="story">
             <figure class="story__shape">
               <img
+                srcset="img/nat-9-sm.jpg 400w, img/nat-9.jpg 2000w"
+                sizes="(max-width: 900px) 28vw, (max-width: 600px) 28vw"
+                alt="Tour photo"
+                class="story__img"
+                src="img/nat-9.jpg"
+              />
+              <!-- <img
                 src="img/nat-9.jpg"
                 alt="Person on a tour"
                 class="story__img"
-              />
+              /> -->
               <figcaption class="story__caption">Jack Wilson</figcaption>
             </figure>
             <div class="story__text">
@@ -510,8 +524,23 @@
     <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
-          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
-          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+          <img
+            srcset="img/nat-8-sm.jpg 400w, img/nat-8.jpg 2000w"
+            sizes="(max-width: 1200px) 37.5vw (max-width: 900px) 37.5vw, (max-width: 600px) 37.5vw"
+            alt="Tour photo"
+            class="popup__img"
+            src="img/nat-8.jpg"
+          />
+          <img
+            srcset="img/nat-9-sm.jpg 400w, img/nat-9.jpg 2000w"
+            sizes="(max-width: 1200px) 37.5vw (max-width: 900px) 37.5vw, (max-width: 600px) 37.5vw"
+            alt="Tour photo"
+            class="popup__img"
+            src="img/nat-9.jpg"
+          />
+
+          <!-- <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" /> -->
         </div>
         <div class="popup__right">
           <a href="#section-tours" class="popup__close">&times;</a>
