@@ -18,7 +18,7 @@
 
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 }
 
 .sidebar {
@@ -30,7 +30,6 @@
 }
 
 .hotel-view {
-  background-color: burlywood;
   flex: 1;
 
   height: 80rem;
