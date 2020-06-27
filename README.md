@@ -14,3 +14,15 @@ All three projects use one package.json.
     "build": "npm-run-all compile concat prefix compress"
   },
 ```
+
+### Scripts for Trillo:
+
+```
+  "scripts": {
+    "watch": "node-sass -wr Trillo/starter/sass/main.scss Trillo/starter/css/style.css",
+    "compile": "node-sass Trillo/starter/sass/main.scss Trillo/starter/css/style.comp.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' Trillo/starter/css/style.comp.css -o Trillo/starter/css/style.prefix.css",
+    "compress": "node-sass Trillo/starter/css/style.prefix.css Trillo/starter/css/style.css --output-style compressed",
+    "build": "npm-run-all compile prefix compress"
+  },
+```
