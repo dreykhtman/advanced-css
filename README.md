@@ -2,6 +2,12 @@
 
 All three projects use one package.json.
 
+## Links:
+- [Natours](https://css-projects.netlify.app/natours/)
+- [Nexter](https://css-projects.netlify.app/nexter/)
+- [Trillo](https://css-projects.netlify.app/trillo/)
+
+
 ### Scripts for Natours:
 
 ```
