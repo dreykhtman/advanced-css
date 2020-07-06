@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -wr Nexter/starter/sass/main.scss Nexter/starter/css/style.css",
-    "compile": "node-sass Nexter/starter/sass/main.scss Nexter/starter/css/style.comp.css",
-    "prefix": "postcss --use autoprefixer -b 'last 10 versions' Nexter/starter/css/style.comp.css -o Nexter/starter/css/style.prefix.css",
-    "compress": "node-sass Nexter/starter/css/style.prefix.css Nexter/starter/css/style.css --output-style compressed",
+    "watch": "node-sass -wr Nexter/sass/main.scss Nexter/css/style.css",
+    "compile": "node-sass Nexter/sass/main.scss Nexter/css/style.comp.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' Nexter/css/style.comp.css -o Nexter/css/style.prefix.css",
+    "compress": "node-sass Nexter/css/style.prefix.css Nexter/css/style.css --output-style compressed",
     "build": "npm-run-all compile prefix compress"
   },
   "repository": {
